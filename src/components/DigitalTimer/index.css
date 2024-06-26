@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.home {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bg-image {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-size: cover;
+  height: 360px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.round {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.time {
+  color: #00d9f5;
+  margin-bottom: -6px;
+  margin-top: -6px;
+}
+.two-buttons {
+  display: flex;
+  gap: 20px;
+}
+.label {
+  display: flex;
+  gap: 10px;
+}
+.play-style {
+  height: 20px;
+}
+.btn-play {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.limit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.increDecre {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.timer-limit {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
